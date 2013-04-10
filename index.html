@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Example Page</title>
+	<link href="css/jquery-ui-1.10.1.css" rel="stylesheet">
+
+	<link href="css/siena.datepicker.css" rel="stylesheet">
+	<link href="css/santiago.datepicker.css" rel="stylesheet">
+
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery-ui-1.10.1.custom.js"></script>
+	<script>
+	$(function() {	
+		$( ".datepicker" ).datepicker({
+			inline: true,
+			showOtherMonths: true
+		});
+	});
+	</script>
+	<style>
+		body {
+			font: 100% "Trebuchet MS", sans-serif;
+			margin: 0;
+			background:fff;
+		}
+
+		.no-show {
+			display: none;
+		}
+
+		h1 {
+			width:960px;
+			margin: 0 auto;
+			padding: 10px 0;
+		}
+
+		article {
+			width:960px;
+			margin: 20px auto;
+		}
+
+		section {
+			float: left;
+			display: inline-block;
+			margin: 0 3em 3em 0;
+		}
+	
+	</style>
+</head>
+<body>
+
+	<h1>calendars</h1>
+
+	<article class="ui-helper-clearfix">
+		<section class="no-show">
+			<h2 class="demoHeaders">siena</h2>
+			<div class="datepicker ll-siena"></div>
+		</section>
+
+		<section>
+			<h2 class="demoHeaders">santiago</h2>
+			<div class="datepicker ll-santiago"></div>
+		</section>
+	</article>
+	
+
+</body>
+</html>
