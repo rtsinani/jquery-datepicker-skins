@@ -7,7 +7,7 @@ To use them, start by copying the `.datepicker.css` files you need as well as th
 
 Check `index.html` for examples.
 
-Skins addes so far:
+Skins available so far:
 
 - siena
 - santiago
