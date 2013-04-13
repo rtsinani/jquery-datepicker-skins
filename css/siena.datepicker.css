@@ -60,6 +60,9 @@
 	border-right: none;
 }
 
+.ll-skin-siena .ui-datepicker table {
+	margin: 0;
+}
 
 .ll-skin-siena .ui-datepicker th {
 	color: #cfc8bc;
