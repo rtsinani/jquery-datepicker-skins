@@ -101,6 +101,10 @@
 
 }
 
+.ll-skin-latoja .ui-datepicker td:last-child {
+	border-right: none;
+}
+
 .ll-skin-latoja .ui-datepicker td span, 
 .ll-skin-latoja .ui-datepicker td a {
 	padding: .7em 0;
