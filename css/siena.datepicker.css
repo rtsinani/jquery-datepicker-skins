@@ -102,7 +102,7 @@
 	cursor: pointer;
 }
 
-.ll-skin-siena .ui-datepicker-calendar .ui-state-hover {
+.ll-skin-siena td a.ui-state-active {
 	border: 1px solid #999e00;
 	border-bottom: none;
 	color: #fff;
