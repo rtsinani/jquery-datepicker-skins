@@ -105,12 +105,12 @@
 	cursor: pointer;
 }
 
+.ll-skin-siena td a.ui-state-hover,
 .ll-skin-siena td a.ui-state-active {
 	border: 1px solid #999e00;
 	border-bottom: none;
 	color: #fff;
 	text-shadow: 0 1px 0 rgba(0,0,0,.21);
-	/*border: 1px solid #999e00;*/
 	background-color: #bec110;
 	-moz-box-shadow: 0 1px 0 #fff, inset 0 1px 0 rgba(255,255,255,.42);
 	-webkit-box-shadow: 0 1px 0 #fff, inset 0 1px 0 rgba(255,255,255,.42);
