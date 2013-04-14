@@ -29,7 +29,6 @@
 	background-image: -o-linear-gradient(bottom, rgba(0,0,0,.21) 0%, rgba(255,255,255,.21) 100%); /* gradient overlay */
 	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.21) 0%, rgba(255,255,255,.21) 100%); /* gradient overlay */
 	background-image: linear-gradient(bottom, rgba(0,0,0,.21) 0%, rgba(255,255,255,.21) 100%); /* gradient overlay */
-
 }
 
 .ll-skin-latoja .ui-datepicker-title {
@@ -64,7 +63,7 @@
 	text-align: center;
 }
 
-.ll-skin-latoja .ui-datepicker .ui-datepicker-header .ui-state-hover {
+.ll-skin-latoja .ui-datepicker-header .ui-state-hover {
 	background: #bdc5c9;
 }
 

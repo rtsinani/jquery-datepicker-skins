@@ -8,6 +8,7 @@
 	<link href="css/siena.datepicker.css" rel="stylesheet">
 	<link href="css/santiago.datepicker.css" rel="stylesheet">
 	<link href="css/latoja.datepicker.css" rel="stylesheet">
+	<link href="css/lugo.datepicker.css" rel="stylesheet">
 
 	<script src="js/jquery-1.9.1.js"></script>
 	<script src="js/jquery-ui-1.10.1.min.js"></script>
@@ -50,7 +51,8 @@
 		}
 
 		article {
-			width:960px;
+			display: block;
+			width: 960px;
 			margin: 20px auto;
 		}
 
@@ -59,6 +61,25 @@
 			display: block;
 			margin: 0 2em 3em 0;
 		}
+
+		.datepickers-cont {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.datepickers-cont li {
+			display: block;
+			float: left;
+			padding: 10px;
+		}
+
+		/* clearfix short For modern browsers */
+		.cf:before,
+		.cf:after { content:""; display:table; }
+		.cf:after { clear:both; }
+		/* For IE 6/7 (trigger hasLayout) */
+		.cf { zoom:1; }
 	
 	</style>
 </head>
@@ -66,21 +87,28 @@
 
 	<h1>calendars</h1>
 
-	<article class="ui-helper-clearfix">
-		<section>
-			<h2 class="demoHeaders">siena</h2>
-			<div class="datepicker ll-skin-siena"></div>
-		</section>
+	<article>
+		<ul class="datepickers-cont cf">
+			<li>
+				<h2>siena</h2>
+				<div class="datepicker ll-skin-siena"></div>
+			</li>
 
-		<section>
-			<h2 class="demoHeaders">santiago</h2>
-			<div class="datepicker ll-skin-santiago"></div>
-		</section>
+			<li>
+				<h2>la toja</h2>
+				<div class="datepicker ll-skin-latoja"></div>
+			</li>
 
-		<section>
-			<h2 class="demoHeaders">la toja</h2>
-			<div class="datepicker ll-skin-latoja"></div>
-		</section>
+			<li>
+				<h2>santiago</h2>
+				<div class="datepicker ll-skin-santiago"></div>
+			</li>
+
+			<li>
+				<h2>lugo</h2>
+				<div class="datepicker ll-skin-lugo"></div>
+			</li>
+		</ul>
 	</article>
 	
 
