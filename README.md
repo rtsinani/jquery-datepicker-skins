@@ -1,4 +1,4 @@
-calendars
+jquery-datepicker-skins
 =========
 
 CSS3 skins for jQuery UI datepicker.

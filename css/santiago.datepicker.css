@@ -1,8 +1,5 @@
 .ll-skin-santiago {
 	font-size: 90%;
-	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.19);
-	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.19);
-	box-shadow: 0 1px 3px rgba(0,0,0,.19);
 }
 
 .ll-skin-santiago .ui-widget {
@@ -16,6 +13,9 @@
 .ll-skin-santiago .ui-widget-content {
 	border: none;
 	background: #fff;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.19);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.19);
+	box-shadow: 0 1px 3px rgba(0,0,0,.19);
 }
 
 .ll-skin-santiago .ui-datepicker-header {
@@ -90,15 +90,6 @@
 	background-position: -96px 0;
 }
 
-.ll-skin-santiago .ui-state-default {
-	background: transparent;
-	border: none;
-	color: #2b2b2b;
-	font-family: "Myriad Pro";
-	font-weight: normal;
-	text-align: center;
-}
-
 .ll-skin-santiago .ui-datepicker table {
 	margin: 0;
 }
@@ -114,6 +105,7 @@
 }
 
 .ll-skin-santiago .ui-datepicker td {
+	border: none;
 	border-top: 1px solid #e6e6e6;
 	border-right: 1px solid #e6e6e6;
 	padding: 0;
@@ -123,9 +115,14 @@
 	border-right: 0;
 }
 
-.ll-skin-santiago .ui-datepicker td span, 
-.ll-skin-santiago .ui-datepicker td a {
-	padding: .5em 0;
+.ll-skin-santiago td .ui-state-default {
+	background: transparent;
+	border: none;
+	color: #2b2b2b;
+	margin: 0;
+	font-family: "Myriad Pro", sans-serif;
+	font-weight: normal;
+	text-align: center;
 }
 
 .ll-skin-santiago .ui-datepicker-calendar .ui-state-hover {
