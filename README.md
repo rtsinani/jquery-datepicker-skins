@@ -9,8 +9,12 @@ Check `index.html` for examples.
 
 Skins available so far:
 
+- cangas
+- latoja
+- lugo
 - siena
 - santiago
+- vigo
 
 Thank you to all the designers at [365psd](http://365psd.com/) for the free PSDs, and of course to [jQuery](http://jquery.com/), and [jQuery UI](http://jqueryui.com/).
 
