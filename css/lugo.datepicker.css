@@ -5,6 +5,7 @@
 .ll-skin-lugo .ui-widget {
 	font-family: "Helvetica","Trebuchet MS",Tahoma,Verdana,Arial,sans-serif;
 	background: #1c1c1c;
+	border: none;
 	border-radius: 0;
 	-moz-box-shadow: 0 0 3px #292c32; 
 	-webkit-box-shadow: 0 0 3px #292c32;
