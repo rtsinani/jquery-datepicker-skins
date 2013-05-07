@@ -111,5 +111,7 @@
 .ll-skin-nigran td .ui-state-hover {
 	background: #1b7fb0;
 	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
 }
 
