@@ -3,6 +3,7 @@
 }
 
 .ll-skin-melon .ui-widget {
+	width: 100%;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 	background: #2e3641;
 	border: none;
